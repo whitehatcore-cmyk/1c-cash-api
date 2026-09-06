@@ -1,0 +1,11 @@
+*.dt
+*.cf
+*.1CD
+*.cdn
+1Cv8Log/
+*.log
+*.bak
+~$*
+.vscode/
+__pycache__/
+.env
