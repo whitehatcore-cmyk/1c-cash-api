@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ДенежныеСредстваВКассах" id="5bec2932-630d-4290-8950-0b281d58151b" configVersion="b9d7bb03629dd24b988c89a0bb6fc49500000000">
+			<Metadata name="AccumulationRegister.ДенежныеСредстваВКассах.Resource.Сумма" id="0d2ecb83-3d96-4d97-bb3d-e04bf069ba15"/>
+			<Metadata name="AccumulationRegister.ДенежныеСредстваВКассах.Dimension.Касса" id="d1313240-ceda-4955-9c1f-f6bb9ed8f5c8"/>
+		</Metadata>
+		<Metadata name="Catalog.Кассы" id="0abcd236-6625-4ec2-9c61-973dab3d7072" configVersion="0060810c80ea224a9a9dcd39f87647b500000000"/>
+		<Metadata name="Configuration.Конфигурация" id="02160977-b855-4dd5-80e2-0660a324b73d" configVersion="7a90ea783672784cb2419cfedd7e5ec900000000"/>
+		<Metadata name="Document.ВыдачаНаличных" id="50d4127b-e02e-4f3c-8367-62109b42da5e" configVersion="4cb432a5a55009499c06fc9e236f4bcc00000000">
+			<Metadata name="Document.ВыдачаНаличных.Attribute.Касса" id="a937db19-ead1-42ad-ba79-71ab1cd9f9de"/>
+			<Metadata name="Document.ВыдачаНаличных.Attribute.Сумма" id="ccb055fe-243c-4fe2-92a8-d0b33c98e1e6"/>
+		</Metadata>
+		<Metadata name="Document.ВыдачаНаличных.ObjectModule" id="50d4127b-e02e-4f3c-8367-62109b42da5e.0" configVersion="b1baef03dafa0f4caf84b2a49148abf900000000"/>
+		<Metadata name="Document.ПоступлениеНаличных" id="996edf0b-6050-46e1-890c-342d34ea951e" configVersion="f66408a58eee5b44b6dc03217a0e395700000000">
+			<Metadata name="Document.ПоступлениеНаличных.Attribute.Сумма" id="2dd8be5a-8bca-42b8-93ce-9bcfa9b985cc"/>
+			<Metadata name="Document.ПоступлениеНаличных.Attribute.Касса" id="d83c34f2-b82b-4d40-829a-d0aa58ed8040"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеНаличных.Form.ФормаДокумента" id="ed2b88e0-547c-4b92-972b-c4149018478d" configVersion="b5b492b58dbb4b43ad0c8276b343db2f00000000"/>
+		<Metadata name="Document.ПоступлениеНаличных.Form.ФормаДокумента.Form" id="ed2b88e0-547c-4b92-972b-c4149018478d.0" configVersion="b8d5011ba08c664eb8dae83c90ca78cc00000000"/>
+		<Metadata name="Document.ПоступлениеНаличных.ObjectModule" id="996edf0b-6050-46e1-890c-342d34ea951e.0" configVersion="79f0bbb080df7044aea5e87f7c6c457200000000"/>
+		<Metadata name="HTTPService.CashAPI" id="2b9537cf-caac-49e2-837d-7ad13f8318db" configVersion="1f4c8af79ac14c4493d95403ac7a3dbc00000000">
+			<Metadata name="HTTPService.CashAPI.URLTemplate.Operations.Method.PostOperation" id="3ec70997-9390-40d9-9b7c-7a7a32e9b58c"/>
+			<Metadata name="HTTPService.CashAPI.URLTemplate.Balances.Method.GetBalances" id="5dd0b886-3eec-4154-af65-75181cc393f6"/>
+			<Metadata name="HTTPService.CashAPI.URLTemplate.Balances" id="7e5884cf-5cbe-4795-a558-0e2a4f6b0bbf"/>
+			<Metadata name="HTTPService.CashAPI.URLTemplate.Operations" id="fb39ae2c-4372-4a1d-b62e-41048bc47902"/>
+		</Metadata>
+		<Metadata name="HTTPService.CashAPI.Module" id="2b9537cf-caac-49e2-837d-7ad13f8318db.0" configVersion="94107975cf07a344b0da6f2f4605a2b800000000"/>
+		<Metadata name="InformationRegister.ОбработанныеОперацииAPI" id="4c0b1ca9-9dad-498a-bb75-dbad17cf3b23" configVersion="1776defbf9445544b2bee02e81f44d4100000000">
+			<Metadata name="InformationRegister.ОбработанныеОперацииAPI.Resource.Сумма" id="24ac79c9-8b77-4a2f-8878-d61d5a5769e8"/>
+			<Metadata name="InformationRegister.ОбработанныеОперацииAPI.Resource.МоментСоздания" id="2cc57ffb-45ed-48f8-ae8f-db6f5f45ecd4"/>
+			<Metadata name="InformationRegister.ОбработанныеОперацииAPI.Resource.Документ" id="573c35ce-927f-40ed-b29b-08c57847e3cd"/>
+			<Metadata name="InformationRegister.ОбработанныеОперацииAPI.Resource.ТипОперации" id="8ad0ad0e-0fd9-4123-9c19-3aabdea67cb5"/>
+			<Metadata name="InformationRegister.ОбработанныеОперацииAPI.Resource.Касса" id="90cd5504-a027-4e41-89b5-fce982795e93"/>
+			<Metadata name="InformationRegister.ОбработанныеОперацииAPI.Dimension.ИдентификаторОперации" id="eba05c5e-d53d-4354-b3ce-aa27030b9b9a"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="56a72a9d-502b-45c2-b8d2-71e5ddff987b" configVersion="179d0ea05bba38489d7cfa3e924375fe00000000"/>
+		<Metadata name="Report.ДенежныеСредстваВКассах" id="f55cc89e-a1bc-419c-a1cb-9ff8c4ef288a" configVersion="e47b060de269b648985c0d5d91d6a32500000000"/>
+		<Metadata name="Report.ДенежныеСредстваВКассах.Template.ОсновнаяСхемаКомпоновкиДанных" id="827a7ef1-a560-4f58-a2bb-c5cd4b775329" configVersion="a55b36c549b2dd45a090507c7fe1f7d300000000"/>
+		<Metadata name="Report.ДенежныеСредстваВКассах.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="827a7ef1-a560-4f58-a2bb-c5cd4b775329.0" configVersion="1b6c67fbcac76b4994608b39b3545f6700000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
